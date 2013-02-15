@@ -12,7 +12,7 @@ set encoding=utf-8
 
 " =============== Appearance ======================
 syntax on
-set background=dark
+set background=light
 colorscheme solarized
 set number
 set ruler
