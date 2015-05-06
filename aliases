@@ -1,8 +1,13 @@
 #!/bin/sh
 
 # Core extensions
-alias ls="ls -A"
-alias ll="ls -lh"
+alias ll='ls -lhFG'
+alias vi='vim'
+alias rm='/bin/rm -i'
+alias cp='/bin/cp -i'
+alias mv='/bin/mv -i'
+alias ls='ls -FG'
+alias rrm='/bin/rm -rf'
 
 # Git aliases
 alias g="git"
@@ -14,11 +19,4 @@ alias gl="git log"
 alias chead="git commit --amend -CHEAD"
 
 # Utilities
-alias be="bundle exec"
-alias eda="emacs --daemon"
-alias e="emacsclient -t"
-alias ek="emacsclient -e '(kill-emacs)'"
 alias stamp="date +'%Y_%m_%d_%H%M%S'"
-alias startgres="postgres -D /usr/local/var/postgres"
-alias startredis="redis-server /usr/local/etc/redis.conf"
-alias ts="ruby ~/.vim/bundle/test_server/test_server.rb"

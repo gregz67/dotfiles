@@ -32,6 +32,10 @@ export TERM=xterm-256color
 # tell compiler to always assume 64 bits
 export ARCHFLAGS="-arch x86_64"
 
+set -o noclobber
+set -o vi
+
+umask 022
 #==========================================================================
 # Git
 #==========================================================================
@@ -69,11 +73,6 @@ export SUDO_PS1="$RED#$NO_COLOR "
 export HISTCONTROL=erasedups # remove duplicates
 export HISTSIZE=10000 # increase the size
 shopt -s histappend # append session commands to .bash_history
-
-#==========================================================================
-# rbenv
-#==========================================================================
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 #==========================================================================
 # set up bash completion
