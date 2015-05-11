@@ -1,6 +1,6 @@
 # Go
-GOPATH=/usr/local/opt/go/libexec
-GOPATH="$HOME/code/go"
+GOROOT=/usr/local/opt/go/libexec
+GOPATH="$HOME/Projects/go"
 GO="$GOPATH/bin:$GOROOT/bin"
 
 # various path assignments
