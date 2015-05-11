@@ -53,7 +53,7 @@ function dirty_state {
 # prompt
 #==========================================================================
 
-GREEN='\[\033[0;32m\]'
+GREEN='\[\033[1;32m\]'
 RED='\[\e[1;31m\]'
 NO_COLOR='\[\e[0m\]'
 CURRENT_WORKING_DIR='\W'
