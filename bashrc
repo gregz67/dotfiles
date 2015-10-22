@@ -7,11 +7,10 @@ GO="$GOPATH/bin:$GOROOT/bin"
 LOCALSBIN="/usr/local/sbin"
 HOMEBIN="$HOME/bin"
 NPM="/usr/local/lib/node_modules"
-NPM_BIN="$PWD/node_modules/.bin"
 
 export GOROOT
 export GOPATH
-export PATH="$NPM_BIN:$NPM:$GO:$HOMEBIN:$LOCALSBIN:$PATH"
+export PATH="$NPM:$GO:$HOMEBIN:$LOCALSBIN:$PATH"
 
 # JDK
 # /usr/libexec/java_home -verbose lists JDKs installed
