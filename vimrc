@@ -40,6 +40,8 @@ au FileType go      set expandtab tabstop=4 softtabstop=4 shiftwidth=4
 " mapping
 " unset last search pattern by hitting space
 nnoremap <space> :noh<CR>l
+" jump to line number on return
+nnoremap <CR> G
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
