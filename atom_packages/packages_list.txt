@@ -1,0 +1,10 @@
+                                                    minimap-autohide/          standard-formatter/
+activate-power-mode/      linter/                   minimap-cursorline/        standardjs-snippets/
+atom-beautify/            linter-csslint/           minimap-find-and-replace/  tab-switcher/
+color-picker/             linter-eslint/            minimap-git-diff/          toggle-quotes/
+cursor-history/           linter-htmlhint/          minimap-linter/            vim-mode/
+emmet/                    linter-js-standard/       multi-cursor/              vim-surround/
+git-diff-details/         linter-jshint/            react/                     webbox-color/
+git-plus/                 maximize-panes/           seti-syntax/
+
+Also go-plus (and dependencies)
