@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 14,
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    "window.zoomLevel": 0
+}
