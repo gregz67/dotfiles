@@ -17,6 +17,7 @@ alias gc="git commit -v"
 alias gd="git diff"
 alias gl="git log"
 alias gpr="git pull --rebase"
+alias gca="git commit --amend"
 alias chead="git commit --amend -CHEAD"
 
 # Utilities

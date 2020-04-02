@@ -61,7 +61,7 @@ GIT_BRANCH_NAME='$(__git_ps1)'
 DIRTY_STATE='$(dirty_state)'
 
 # assign new colorized prompt
-export PS1="$GREEN[$CURRENT_WORKING_DIR$GIT_BRANCH_NAME$RED$DIRTY_STATE$GREEN]\$$NO_COLOR "
+export PS1="$GREEN[$CURRENT_WORKING_DIR]\$$NO_COLOR "
 
 # assign new colored root prompt
 export SUDO_PS1="$RED#$NO_COLOR "
@@ -81,3 +81,19 @@ shopt -s histappend # append session commands to .bash_history
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
+#==========================================================================
+# set up git completion
+#==========================================================================
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+#==========================================================================
+# nvm
+#==========================================================================
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
