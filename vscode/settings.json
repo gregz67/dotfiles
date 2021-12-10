@@ -1,7 +1,18 @@
 {
-    "files.autoSave": "onFocusChange",
-    "editor.fontSize": 14,
-    "powermode.enabled": true,
-    "powermode.presets": "flames",
-    "window.zoomLevel": 0
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "window.zoomLevel": 1,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Monaco",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "all",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.colorTheme": "Monokai",
+  "editor.wordWrap": "on"
 }

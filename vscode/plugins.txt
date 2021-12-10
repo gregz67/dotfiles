@@ -1,0 +1,6 @@
+Code Spell Checker
+GitLens
+Open in GitHub
+Power Mode
+Vim
+ESLint

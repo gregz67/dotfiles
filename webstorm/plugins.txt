@@ -1,0 +1,5 @@
+Atom Material Icons
+GitLink
+GitToolBox
+IdeaVim
+Material Theme UI Lite

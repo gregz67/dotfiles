@@ -11,3 +11,5 @@ export PATH="$PYTHON:$HOMEBIN:$LOCALSBIN:$PATH"
 # functions
 mkdir() { /bin/mkdir -p "$@" && cd "$@"; }
 
+# silence zsh message in macos
+export BASH_SILENCE_DEPRECATION_WARNING=1

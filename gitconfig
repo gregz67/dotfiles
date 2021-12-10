@@ -1,6 +1,3 @@
-[user]
-	name = Greg Ziebold
-	email = ziebold@gmail.com
 [push]
 	default = simple
 [credential]
@@ -11,3 +8,6 @@
   mr = !sh -c 'git fetch $1 merge-requests/$2/head:mr-$1-$2 && git checkout mr-$1-$2' -
 [color]
   ui=auto
+[user]
+	name = Greg Ziebold
+	email = gziebold@alteryx.com
